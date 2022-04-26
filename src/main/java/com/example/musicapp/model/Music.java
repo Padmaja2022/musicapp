@@ -13,10 +13,16 @@ import javax.persistence.Table;
 @Table(name = "musicapp")
 
 
-public class Music {
-	
-	    
 
+public class Music {
+	/*
+	 private Long id;
+	private String SongtName;
+	private String genre;
+	private String artist;
+	private int duration;
+    
+*/
 			@Override
 	public String toString() {
 		return "trackMusic [id=" + id + ", songtName=" + songtName + ", genre=" + genre + ", artist=" + artist
